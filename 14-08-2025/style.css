@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #000;
+}
+
+header h3 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+}
+
+ul a {
+    padding: 10px;
+}
+
+.logo {
+    width: 73px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.first{
+    background-color:orange;
+    height: 500px;
+}
+.second{
+    background-color:white;
+    height: 500px;
+}
+.third{
+    background-color:green;
+    height: 500px;
+}
